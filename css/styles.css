@@ -1,0 +1,46 @@
+    /* main color #212121*/
+    /*second text color #757575*/
+    /*active color blue #2196F3*/
+    /*white color #FFFFFF*/
+    /* footer colot phone, email rgba(255, 255, 255, 0.6)*/
+
+body{
+    font-family: Roboto, sans-serif;
+    color:#757575 ;
+}
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+.logo >span{
+    color: black;
+}
+.logo:hover, .logo:focus{
+    text-decoration: underline;
+}
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+.site-nav .link{
+    color: #212121;
+    text-decoration: none;}
+{
+
+}    
+.email, .tel{
+    color: #757575;
+}
+.email:hover, 
+.tel:hover,
+.email:focus,
+.tel:focus
+{
+    color: #2196F3;
+}
