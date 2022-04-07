@@ -31,16 +31,16 @@ body{
 .site-nav .link{
     color: #212121;
     text-decoration: none;}
-{
-
-}    
-.email, .tel{
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+  
+.contacts .link{
     color: #757575;
 }
-.email:hover, 
-.tel:hover,
-.email:focus,
-.tel:focus
+.contacts .link:hover,
+.contacts .link:focus
 {
     color: #2196F3;
 }
