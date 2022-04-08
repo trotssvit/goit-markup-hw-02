@@ -43,3 +43,66 @@ body{
 {
     color: #2196F3;
 }
+.hero-heading{
+    background-color: #2F303A;
+}
+.heading{
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1,36;
+}
+.hero-button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    
+}
+.text-caption{
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text-content{
+    line-height: 1,71;    
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    font-weight: 400;
+}
+.work-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.team-heading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.team-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.team-prof{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
