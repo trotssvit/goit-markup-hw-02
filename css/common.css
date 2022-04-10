@@ -1,95 +1,30 @@
 :root {
-    --main-color: #212121;
-    --second-text-color: #757575;
+    --main-bg-color: #FFFFFF;
+    --footer-bg-color: #2F303A;
+    
+    --title-color: #212121;
+    --main-text-color: #757575;
+    --hero-heading-color: #FFFFFF;
+    --hero-bg-color: #2F303A;
+    --hero-button-bg: #188CE8;
+    --team-bg: #F5F4FA;
+    --section-team-bg: #FFFFFF;
+    
     --active-color: #2196F3;
-    --logo-black-color: #000000;
-    --logo-white-color: #FFFFFF;
+    --active-color-letters: #FFFFFF;
+    
+    --logo-header-color: #000000;
+    --logo-footer-color: #FFFFFF;
+    
+    --address-link-color: #757575;
+    --address-maplink-color: #FFFFFF;
+    --footer-address-link-color: rgba(255, 255, 255, 0.6) --nav-button-color:#212121;
+    --contacts-link-color: #757575;
 
+    --nav-button-color: #212121;
+    --portfolio-bt: #212121;
+    --portfolio-bt-bg: #F5F4FA;
+
+    --team-name-color: #212121;
 }
 
-/* main color #212121*/
-/*second text color #757575*/
-/*active color blue #2196F3*/
-/*white color #FFFFFF*/
-/* footer colot phone, email rgba(255, 255, 255, 0.6)*/
-
-body {
-    font-family: Roboto, sans-serif;
-    color: var(--second-text-color);
-    background-color: #fff;
-}
-.list {
-    list-style: none;
-    text-decoration: none;
-
-}
-
-.logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--active-color);
-
-}
-
-.logo>span {
-    color: var(--logo-black-color);
-}
-
-.logo:hover,
-.logo:focus {
-    text-decoration: underline;
-}
-/* footer styles */
-
-.footer-space {
-    background-color: #2F303A;
-}
-
-.footer-logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-
-    color: var(--active-color);
-}
-
-.footer-logo>span {
-    color: var(--logo-white-color);
-}
-
-.address .link {
-    list-style: none;
-    text-decoration: none;
-    font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71px;
-    letter-spacing: 0.03em;
-}
-
-.address-link {
-    color: #FFFFFF;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.footer-logo:hover,
-.footer-logo:focus,
-.address .link:hover,
-.address .link:focus,
-.address-link:hover,
-.address-link:focus {
-    text-decoration: underline;
-}
