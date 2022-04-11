@@ -18,7 +18,7 @@
 
         --address-link-color: #757575;
         --address-maplink-color: #FFFFFF;
-        --footer-address-link-color: rgba(255, 255, 255, 0.6) --nav-button-color:#212121;
+        --footer-address-link-color: rgba(255, 255, 255, 0.6);
         --contacts-link-color: #757575;
 
         --nav-button-color: #212121;
@@ -117,6 +117,13 @@ body {
 
     color: var(--nav-button-color);
     text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
    
    }
 .site-nav .link:hover,
@@ -126,8 +133,13 @@ body {
     }
 .contacts .link{ 
     color: var(--contacts-link-color);
+    font-family:inherit;
     list-style: none;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -146,6 +158,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     line-height: 1.36;
+    font-weight: 900;
+    font-size: 44px;
+     
+   
 }
 .hero-button{
     font-family: inherit;
@@ -170,7 +186,7 @@ body {
     color: var(--title-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
